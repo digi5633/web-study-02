@@ -18,6 +18,7 @@ public class MethodServlet extends HttpServlet {
       request.setAttribute("method", "get");
       processRequest(request, response);
    }
+   
    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
       request.setAttribute("method", "post");
       processRequest(request, response);
