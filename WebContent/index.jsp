@@ -13,5 +13,6 @@
 		<a href="<%=request.getContextPath()%>/05.param.jsp">05. 텍스트 박스에 입력된 값 얻어오기</a><br>
 		<a href="<%=request.getContextPath()%>/04_method.jsp">06. --</a><br>
 		<a href="<%=request.getContextPath()%>/07_login.jsp">07. 로그인 폼 만들기</a><br>
+		<a href="<%=request.getContextPath()%>/07_login.jsp">08. 배타적 선택하기</a><br>
 	</body>
 </html>
