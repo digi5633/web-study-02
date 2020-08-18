@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>method 방식 결과</title>
+<title>get과 post 전송 방식의 폼과 서블릿 테스트</title>
 </head>
 <body>
 	<h1>${mehod} 방식으로 처리됨</h1>

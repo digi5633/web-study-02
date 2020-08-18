@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>서블릿</title>
+<title>get과 post 전송 방식의 폼과 서블릿 테스트</title>
 </head>
 <body>
 	<form method="get" action="MethodServlet">
