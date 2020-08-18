@@ -29,10 +29,10 @@ public class SelectServlet extends HttpServlet {
 		
 		if (interests == null)
 			interests = new String[] { "선택한 분야가 없습니다." };
-		String arrToItems = Arrays.stream(interests).collect(Collectors.joining(", "));
+		String arrToInterests = Arrays.stream(interests).collect(Collectors.joining(", "));
 		
 		request.setAttribute("job", job);
-		request.setAttribute("arrToItems", arrToItems);
+		request.setAttribute("arrToItems", arrToInterests);
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("10_result.jsp");
 		dispatcher.forward(request, response);
