@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>배타적 선택하기</title>
+		<title>관심분야 다중 선택하기</title>
 	</head>
 	
 	<body>
