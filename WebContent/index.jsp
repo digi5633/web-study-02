@@ -15,5 +15,6 @@
 		<a href="<%=request.getContextPath()%>/07_login.jsp">07. 로그인 폼 만들기</a><br>
 		<a href="<%=request.getContextPath()%>/08_radio.jsp">08. 배타적 선택하기</a><br>
 		<a href="<%=request.getContextPath()%>/09_checkbox.jsp">09. 관심분야 다중 선택하기</a><br>
+		<a href="<%=request.getContextPath()%>/10_select.jsp">10. 직업과 관심분야 선택하기</a><br>
 	</body>
 </html>
