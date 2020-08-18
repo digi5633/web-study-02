@@ -25,7 +25,7 @@ public class MethodServlet extends HttpServlet {
    }
    
    private void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-      RequestDispatcher dispatcher = request.getRequestDispatcher("result.jsp");
+      RequestDispatcher dispatcher = request.getRequestDispatcher("04_result.jsp");
       dispatcher.forward(request, response);
    }
 
